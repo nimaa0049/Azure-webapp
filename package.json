@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/app.js",
     "dev": "nodemon src/app.js",
-    "test": "jest --passWithNoTests --coverage"
+    "test": "jest --coverage"
   },
   "dependencies": {
     "@azure/storage-blob": "^12.17.0",
