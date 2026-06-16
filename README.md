@@ -345,6 +345,15 @@ Access control for `rg-3tier-app`: Owner roles plus a Reader role assigned via M
 ### ⚙️ CI/CD Pipelines
 
 <details>
+<summary><strong>GitHub Actions — workflow runs</strong></summary>
+
+![GitHub Actions workflow runs](./docs/screenshots/13-github-actions-runs.png)
+
+A history of GitHub Actions deployments — every push to `main` triggers an automatic build and deploy to Azure App Service.
+
+</details>
+
+<details>
 <summary><strong>Azure DevOps — pipeline run</strong></summary>
 
 ![Azure DevOps pipeline run](./docs/screenshots/10-azure-devops-pipeline.png)
